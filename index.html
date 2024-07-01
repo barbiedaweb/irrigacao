@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+var myMusic= document.getElementById("music");
+function play() {
+myMusic.play();
+}
+function pause() {
+myMusic.pause();
+}
+function funcao1()
+{
+alert("eu sou um alerta");
+}
+</script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="G-04-i7.jpeg" alt="Site">
+
+
+<audio controls id="music">
+<source src="kayblack.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+     </audio>
+
+<button onclick="play()" type="button">Play </button>
+<button onclick="pause()" type="button">Pause</button>
+ <input type="button" onclick="funcao1()" value="Exibir Alert" />
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Escola</li>
+            <li class="cabecalho-lista-item">Estudante</li>
+            <li class="dropdown">
+                <A href="javascript:void(0)." class="dropbtn">Trabalhos</A>
+                <div class="dropdown-content">
+                    <a href="G-04-trab1.html">Robotica</a>
+                    <a href="G-04-trab2.html">Empreendedorismo</a>
+                    <a href="G-04-trab3.html">Biotecnologia</a>
+                </div>
+            </li>
+            </ul>
+    </header>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Sobre o Grupo 04</h2>
+            <p class="escola-texto-um">Esse site foi criado para apresentar os integrantes do nosso grupo, que está sendo desenvolvido na disciplina de matematica II</p>
+            <p class="escola-texto-dois">Olá! Seja bem-vindo ao nosso site! Somos um grupo com interesses e objetivos em comum, que se uniram para compartilhar ideias, experiências e aprendizados.</p>
+        </div>
+       <img class="escola-imagem" src="G-04-i2.jpg" alt="alunos na sala.">
+    </section>
+
+    <ul class="slider">
+    <li>
+          <input type="radio" id="slide1" name="slide" checked>
+          <label for="slide1"></label>
+          <img src="G-04-i12.jpg" />
+    </li>
+    <li>
+          <input type="radio" id="slide2" name="slide">
+          <label for="slide2"></label>
+          <img src="G-04-i10.jpg" />
+    </li>
+    <li>
+          <input type="radio" id="slide3" name="slide">
+          <label for="slide3"></label>
+          <img src="G-04-i11.jpg" />
+    </li>
+</ul>
+    <section >
+            <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+            <div class="estudante-todos">
+                <div class="estudante-div">
+                    <img class="estudante-imagem-anna" src="G-04-i3.jpg" alt="foto da anna">
+                    <h3 class="estudante-nome">Anna Carolina</h3>
+                    <p>Meu nome é Anna, tenho 15 anos e estou no 2° ano do ensino médio.</p>
+                    <p>Nos meus momentos livres gosto de ouvir músicas, dormir, estar com minha família e sofrer assistindo os jogos do meu time e meu maior sonho é ir morar na praia com minha família</p>
+                </div>
+                <div class="estudante-div">
+                    <img class="estudante-imagem-anne" src="G-04-i4.jpg" alt="foto da anne">
+                    <h3 class="estudante-nome">Anne Caroline</h3>
+                    <p>Meu nome é Anne, tenho 16 anos e estou no 2° ano do ensino médio.</p>
+                    <p>Nos meus momentos livres gosto de ir pra academia, dormir, escutar música e estar com minha família</p>
+                    <p>Meu cénario favorito é sair com minha mãe</p>
+                      
+                </div>
+                <div class="estudante-div">
+                    <img class="estudante-imagem-anny" src="G-04-i6.jpg"foto da anny">
+                    <h3 class="estudante-nome">Anny Luize</h3>
+                    <p>Meu nome é Anny, tenho 16 anos e estudo de manhã no Colégio Estadual do Parana.</p>
+                    <p>Eu trabalho de segunda a sabádo das 14 ás 19hrs.</p>
+                    <p>Minhas coisas favoritas são dormir, estar com meu namorado e viajar</p>
+                </div>
+                <div class="estudante-div">
+                    <img class="estudante-imagem-julia" src="G-04-i5.jpg" alt="foto da Julia">
+                    <h3 class="estudante-nome">Julia Gomes</h3>
+                    <p>Meu nome é Julia, tenho 15 anos e estou no 2° ano do ensino médio</p>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
